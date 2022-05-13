@@ -1,0 +1,42 @@
+ /*Class to add title with background color*/
+.Title h1{
+	background-color: yellow;
+	margin-left: 40%;
+	margin-right:45%;
+
+}
+/*Class to add animation on the picture going right to left*/
+.anim 
+{ 
+
+	position: relative; 	
+	width: 100%; 
+	height: 200px; 
+	overflow: hidden;
+	margin-top: -10px;
+	margin-bottom: -100px
+}
+/*Class to add animation on the picture going right to left*/
+.anim img 
+{ 
+	position: absolute; 
+	width: 50%; 	
+	height: 50%; 	
+	margin: 0; 
+	padding: 0; 
+	line-height: 50px; 	
+	transform: translateX(80%); 	
+	animation: scrolling 8s linear infinite;
+}
+/*Built in function for animations*/
+@keyframes scrolling 
+{ 	
+	0% 
+	{ 		
+		transform: translateX(200%); 	
+	} 
+	100%
+	{ 		
+		transform: translateX(-100%); 
+	}
+}

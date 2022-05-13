@@ -1,0 +1,179 @@
+.mainpage{
+	background-image: url(https://img.freepik.com/free-photo/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall_1258-28313.jpg?w=360);
+	height: 610px;
+	width: 100%;
+	overflow: hidden;
+}
+#page2{
+
+	background-image: url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700351624.jpg);
+	height: 610px;
+	width: 100%;
+    overflow: hidden;
+}
+#page3{
+
+	background-image: url(https://media.istockphoto.com/photos/red-old-matte-grunge-faded-adobe-plaster-texture-abstract-cement-picture-id1299674661?b=1&k=20&m=1299674661&s=170667a&w=0&h=TI7PCc8wsK7eaL7bLFwLQJ8w0b1uR5JiYubOSy9OaKk=);
+	height: 610px;
+	width: 100%;
+    overflow: hidden;
+}
+#page4{
+
+	background-image: url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700351624.jpg);
+	height: 610px;
+	width: 100%;
+    overflow: hidden;
+}
+#page5{
+
+	background-image: url(https://img.freepik.com/free-photo/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall_1258-28313.jpg?w=360);
+	height: 610px;
+	width: 100%;
+    overflow: hidden;
+}
+/*.page1{
+	background-color: #2b4e5f;
+    height: 800px;
+    width: 100% ;
+    position: absolute;
+    top: 0;
+}*/
+.nevbar{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+.nev1{
+	float: right;
+	margin-right:33px;
+}
+.options{
+	display: inline-block;
+	color: white;
+    text-align: center;
+    padding: 24px 26px;
+    text-decoration: none;
+}
+.options:hover
+{
+	color: red;
+	font-size: 18px;
+}
+.logo{
+	height:4%;
+	width:4%;
+	padding-left: 20px;
+	padding-top: 8px;
+	align-self: left;
+    
+}
+.burgerimg{
+	height: 100%;
+	width:45%;
+	margin-right: 100px;
+	overflow: hidden;
+}
+#imgdiv{
+	height: 65%;
+	width:100%;
+	margin-top: -400px;
+	
+}
+#text1div{
+	height: 65%;
+	width:45%;
+	margin-top: 40px;
+	padding-left: 30px;	
+	
+}
+#text1div h1{
+	font-size: 60px;
+	color: white;
+	padding-top: 70px;
+	
+}
+#button1{
+	
+	border-radius: 25px;
+	border: 1px solid red;
+	background-color: red;
+	font-size: 15px;
+	color: white;
+}
+#button1:hover{
+	color: black;
+	transform: scale(1.3);
+}
+.gallery {
+  margin: 120px;
+  display: inline-block;
+  width: 180px;
+}
+
+.gallery img {
+	border-radius: 50%;
+	padding: 15px;
+	width: 150px;
+	height: auto;
+
+}
+.desc {
+	margin-top: -50px;
+  padding: 15px;
+  color: red;
+  text-align: center;
+}
+.InputBar{
+	display: inline-block;
+	border-radius: 25px;
+	border: 1px solid white;
+	margin-left: 32.5%;
+	margin-top: 30px;
+	width: 450px;
+	height: 30px;
+	align-self: center;
+}
+#button2{
+	display: inline-block;
+	border-radius: 25px;
+	border: 1px solid red;
+	background-color: red;
+	width: 150px;
+	height: 36px;
+	margin-left: -30px;
+	font-size: 15px;
+	color: white;
+}
+#button2:hover{
+	color: black;
+}
+.foot{
+	width:90%;
+	height: 600px;
+	border: solid white;
+}
+.block{
+	display: inline-block;
+  	width: 150px;
+  	margin-left: 80px;
+  	margin-top: 0px;
+  	height: 250px;
+}
+.block1{
+	display: inline-block;
+  	width: 350px;
+  	margin-left: 80px;
+  	margin-top: 180px;
+  	height: 250px;
+}
+.block1 img{
+	border-radius: 50%;
+	padding: 10px;
+	width: 30px;
+	height: auto;
+}
+.block p{
+	color: white;
+}

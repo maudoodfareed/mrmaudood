@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cp 5</title>
+<script>
+		
+	function CheckEmpty() 
+	{
+	    let inpObj = document.forms["form"]["Name"].value;
+		if (inpObj == "")
+		{
+		    alert("Name can not b empty");
+		}
+	}
+
+	function LimitExceed()
+	{
+		let age = document.forms["form"]["Age"].value;
+		if(age < 1)
+		{
+			alert("Invalid Age")
+		}
+	}
+	
+</script>
+</head>
+<body>
+
+	<h2>HTML Forms</h2>
+
+	<form onsubmit="return CheckEmpty()" name="form">
+	  <label >Name:</label><br>
+	  <input type="text" name="Name" value=""><br>
+	  <label for="age">Age:</label><br>
+	  <input type="number" name="Age" value="" required=""><br><br>
+	  <button onclick="return LimitExceed()">Submit</button>
+	</form>
+
+</body>
+</html>
+
